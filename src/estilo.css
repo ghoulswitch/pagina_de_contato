@@ -1,5 +1,5 @@
 :root {
-    --roxo-escuro: #5B24A7;
+    --roxo-escuro: #4C2296;
     --roxo: #4036A9;
     --rosa: #B4436D;
     --azul-escuro: #111729;
@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, var(--rosa)10%, var(--roxo-escuro)90%);
+    background: linear-gradient(136deg, var(--rosa)10%, var(--roxo), var(--roxo-escuro));
     height: 150vh;
     color: white;
 }
@@ -56,7 +56,7 @@ input::placeholder {
     /* background-color: rgba(255, 228, 196, 0.432); */
     display: flex;
     flex-direction: row;
-    margin-left: 12px;
+    margin-left: 5px;
 }
 
 /* NOME */
@@ -116,7 +116,7 @@ input#email::placeholder {
     /* background-color: rgba(255, 228, 196, 0.432); */
     display: flex;
     flex-direction: row;
-    margin-left: 12px;
+    margin-left: 5px;
 }
 
 /* TAMANHO EMPRESA */
@@ -175,7 +175,7 @@ select#assunto {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    margin-left: 12px;
+    margin-left: 5px;
 }
 
 label#mensagem {
@@ -208,7 +208,7 @@ textarea#mensagem::placeholder {
 .botao {
     /* background-color: wheat; */
     padding: 12px;
-    margin-left: 11px;
+    margin-left: 3px;
 }
 
 button {
