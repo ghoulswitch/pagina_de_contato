@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./src/reset.css">
+    <link rel="stylesheet" href="./src/estilo.css">
+
+    <!-- FONTE VIETNAM PRO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title> Página de contato </title>
+</head>
+
+<body>
+
+    <div class="titulo">
+        <h1> Interessado em nossos <br> preços comerciais? </h1>
+        <h2> Preencha o formulário para acessar os detalhes e iremos <br> entrar em contato assim que possível. </h2>
+    </div>
+
+    <section>
+        <form action="" method="post">
+
+            <div class="nome-email">
+                <div class="nome">
+                    <label for="nome" id="nome"> Nome </label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome">
+                </div>
+                <div class="email">
+                    <label for="nome"> E-mail da empresa </label>
+                    <input type="email" name="email" id="email" placeholder="Digite o e-mail da empresa">
+                </div>
+            </div>
+
+            <div class="tamanho-assunto">
+                <div class="tamanho-empresa">
+                    <label for="tamanho" id="tamanho"> Tamanho da empresa </label>
+                    <select name="tamanho" id="tamanho">
+                        <option> 50-100 funcionários </option>
+                        <option> 100-200 funcionários </option>
+                        <option> 200-300 funcionários </option>
+                    </select>
+                </div>
+                
+                <div class="assunto">
+                    <label for="nome" id="assunto"> Assunto </label>
+                    <select name="assunto" id="assunto">
+                        <option> Construir landing pages </option>
+                        <option> Design de Interfaces e Prototipação </option>
+                        <option> Aplicações Web e PWA </option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="mensagem">
+                <label for="mensagem" id="mensagem"> Mensagem </label>
+                <input type="text" name="mensagem" id="mensagem" placeholder="Digite uma mensagem"> 
+            </div>
+
+            <div class="botao">
+                <button type="submit"> Contatar vendas </button>
+            </div>
+        </form>
+    </section>
+
+    
+    
+</body>
+</html>

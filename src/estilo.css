@@ -1,0 +1,164 @@
+:root {
+    --roxo-escuro: #5B24A7;
+    --roxo: #4036A9;
+    --rosa: #B4436D;
+    --azul-escuro: #111729;
+    --cinza: #CDD5E0;
+}
+
+body {
+    background: linear-gradient(135deg, var(--rosa)10%, var(--roxo-escuro)90%);
+    height: 100vh;
+    color: white;
+}
+
+/* TITULO & SUBTITULO */
+h1 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: normal;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(245, 222, 179, 0.384);
+    width: 830px;
+    margin: 50px auto;
+    padding: 10px; 
+}
+
+/* FORM */
+section {
+    background-color: rgba(216, 191, 216, 0.267);
+    font-family: "Be Vietnam Pro", sans-serif;
+    display: flex;
+    width: 900px;
+    margin: auto;
+}
+
+input::placeholder {
+    padding: 15px;
+}
+
+/* PRIMEIRA LINHA */
+.nome-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* NOME */
+.nome {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+label#nome {
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+input#nome {
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+}
+
+/* EMAIL */
+.email {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+label#email {
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+input#email {
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+}
+
+/* SEGUNDA LINHA */
+.tamanho-assunto {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* TAMANHO EMPRESA */
+.tamanho-empresa {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+label#tamanho {
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+select#tamanho {
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    padding: 10px;
+    outline: none;
+}
+
+/* ASSUNTO */
+.assunto {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+label#assunto {
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+select#assunto {
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+    padding: 10px;
+    outline: none;
+}
+
+/* MENSAGEM */
+
+.mensagem {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+label#mensagem {
+    padding: 3px;
+}
+
+input#mensagem {
+    height: 100px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+/* input#mensagem::placeholder {
+    padding: 0 0 0 15px;
+} */
